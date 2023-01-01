@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/static/a.css">
+  </head>
+  <body>
+    <h1>Articles list</h1>
+    {% for i in articles %}
+    <h2><a href="">{{i.title}}</a></h2>
+    <p>{{i.snnipet}}</p>
+    <p>{{i.date}}</p>
+    {% endfor %}
+  </body>
+</html>
